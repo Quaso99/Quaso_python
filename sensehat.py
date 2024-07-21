@@ -42,4 +42,4 @@ except KeyboardInterrupt:
     print("Programm beendet")
 
 
-SELECT mean("temperature") FROM "sensehat" WHERE $timeFilter GROUP BY time($interval) fill(null)
+#SELECT mean("temperature") FROM "sensehat" WHERE $timeFilter GROUP BY time($interval) fill(null)
