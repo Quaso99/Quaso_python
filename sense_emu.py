@@ -2,14 +2,14 @@ from sense_emu import SenseHat
 from influxdb import InfluxDBClient
 import time
 
-# InfluxDB Verbindungsdetails
+#InfluxDB
 host = 'localhost'
 port = 8086
 user = 'xxxxx'
 password = 'xxxx'
 dbname = 'xxxxxxx'
 
-# Sense HAT initialisieren
+
 sense = SenseHat()
 client = InfluxDBClient(host, port, user, password, dbname)
 
